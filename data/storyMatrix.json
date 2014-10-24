@@ -1,0 +1,13 @@
+{
+ "name": "StoryMatrix",
+ "children": 
+ [
+  {"name":"War01", "target":"left-video", "connectedTo":"Peace01","video":"video/War01.mp4","youtubeId":"pErf4C0p-Xw"},
+  {"name":"War02", "target":"left-video", "connectedTo":"Peace02","video":"video/War02.mp4","youtubeId":"ZBgQH9YL-i8" },
+  {"name":"War03", "target":"left-video", "connectedTo":"Peace03","video":"video/War03.mp4","youtubeId":"CW-Z6wJmUw0"},
+  {"name":"Peace01", "target":"right-video", "connectedTo":"War01","video":"video/Peace01.mp4","youtubeId":"qFdoQOTKit4"},
+  {"name":"Peace02", "target":"right-video", "connectedTo":"War02","video":"video/Peace02.mp4","youtubeId":"xGiBwsGCLyQ"},
+  {"name":"Peace03", "target":"right-video", "connectedTo":"War03","video":"video/Peace03.mp4","youtubeId":"aDm0rQlbLcE"}
+ ]
+
+}
